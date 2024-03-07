@@ -1,0 +1,22 @@
+Lista uwag:
+
+Program.cs
+
+- Nieużyte args line:12
+- Zła nazwa pliku line:15
+- Niepotrzebne dyrektywy using.
+
+DataReader.cs
+
+- Warto rozdzielić funkcję na kilka mniejszych, gdzie każda będzie odpowiadała za swoje zadanie
+- Niepotrzebne dyrektywy using, przeniesienie używanych nad namespace.
+- Zmiana zmiennej na List line:12
+- Nieużywany parametr funkcji ImportAndPrintData line:14
+- Zbędna pętla, możliwość wykorzystania, np. metody ReadToEnd() line:21
+- Brak pominięcia wiersza z nazwami kolumn i=1 i< line:27
+- Złączenie dwóch pętli iterujących po tych samych elementach w jedną pętlę obsługującą oba zadania:27-50
+- Możliwość użycia ElementAtOrDefault nie pozwalającego na uzyskanie wartości której indeks wychodzi poza zakres line:45-49
+- Niepotrzebna pętla w pętli i deklaracja tablicy, do iteracji można użyć Count line:53-66
+- Możliwość złączenia warunków if z pętlami foreach (where) line:68-88
+- Auto properties oraz formatowanie line:106-122
+- zmiana IsNullable powinna być typu boolean line:120
